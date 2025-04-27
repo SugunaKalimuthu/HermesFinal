@@ -1,10 +1,9 @@
 const express = require('express');
 const axios = require('axios');
 const app = express();
-const PORT = 4000;  // Updated port
+const PORT = 4000;  
 
-// Your NewsAPI key
-const API_KEY = '5fa8e01f4a9546a081964bde0d4ccf91'; // Replace with your actual API key
+const API_KEY = '5fa8e01f4a9546a081964bde0d4ccf91';
 
 // Root route for input form
 app.get('/', (req, res) => {
